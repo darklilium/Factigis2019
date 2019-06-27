@@ -1,0 +1,60 @@
+$colorBackground: #2e353f;
+$colorCHQRED: #da291c;
+$colorGray: #808095;
+
+.btnLogoff{
+  color: $colorCHQRED;
+  background-color: #ffffff !important;
+  border-color: $colorGray;
+}
+
+.btnLogoff:hover {
+  color: #fff;
+  background-color: $colorBackground !important;
+}
+
+//30012017 new
+.wrapperTop{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 6.4rem;
+  justify-content: space-between;
+}
+
+.logo_content{
+  display: flex;
+}
+
+.img_logo{
+  width: 8em;
+  margin: 1em;
+}
+
+.welcome_logout_wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.theme__appBar___b1hGI{
+      height: 4.4rem;
+}
+
+.breadcrumbs_custom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_dashboard{
+  color: white !important;
+}
+
+.theme__panel___2AHlZ{
+  width: 100%;
+}
+//till here
+
+
+@import "components/factigis/factigis_frontoffice.scss";
+@import "components/factigis/factigis_griddle.scss";

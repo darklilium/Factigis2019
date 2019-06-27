@@ -1,0 +1,103 @@
+$colorBackground: #2e353f;
+$colorCHQRED: #da291c;
+$colorGray: #808095;
+
+//30012017 new
+.wrapperTop{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 6.4rem;
+  justify-content: space-between;
+}
+
+.logo_content{
+  display: flex;
+}
+
+.img_logo{
+  width: 8em;
+  margin: 1em;
+}
+
+.welcome_logout_wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.theme__appBar___b1hGI{
+      height: 4.4rem;
+}
+
+.breadcrumbs_custom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_dashboard{
+  color: white !important;
+}
+
+.theme__panel___2AHlZ{
+  width: 100%;
+}
+//till here
+
+
+.breadcrumb {
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: -1px 4px 35px -5px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: -1px 4px 35px -5px rgba(0, 0, 0, 0.52);
+  list-style: none;
+  background-color: #f5f5f5;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  height: 40px;
+  box-shadow: 0px 1px 5px rgba(190, 190, 190, 0.46);
+  -webkit-box-shadow: 0px 1px 5px rgba(190, 190, 190, 0.46);
+  -moz-box-shadow: 0px 1px 5px rgba(190, 190, 190, 0.46);
+  -webkit-backface-visibility: hidden;
+  width: 100%;
+  margin: 0;
+}
+
+.factigis_top-right{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  right: 1em;
+}
+
+#factigis_bo1_map_zoom_slider {
+    top: 20px;
+    right: 20px !important;
+    left: initial;
+    z-index: 5 !important;
+}
+
+
+.factigis_whologged{
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+}
+
+.btnLogoff{
+  color: $colorCHQRED;
+  background-color: #ffffff;
+  border-color: $colorGray;
+}
+
+.btn-info:hover {
+  color: #fff;
+  //background-color: #2e353f;
+  background-color: $colorBackground;
+}
+
+@import "components/factigis/factigis_sgo.scss";
+@import "components/factigis/factigis_griddle.scss";
+@import "components/layerlist-component";

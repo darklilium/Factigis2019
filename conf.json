@@ -1,0 +1,7 @@
+{
+  
+  "source": {
+      "includePattern": ".+\\.js(doc|x)?$",
+       "include": ["./static/js/bundles", "./static/js/components/factigis"]
+  }
+}

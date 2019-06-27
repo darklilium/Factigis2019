@@ -1,0 +1,126 @@
+.wrapper_factigisCertificado{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(100px , 1fr));
+    grid-template-rows:  minmax(30px,50px)  
+                         minmax(10px, 30px) 
+                         minmax(30px, 50px) 
+                         50px 
+                         280px 
+                         repeat(12, minmax(20px, 30px));
+    
+    padding: 3% 10%;
+    grid-gap: 1%;
+}
+
+.cert_header{
+    grid-column: 2/3;
+}
+
+.cert_header img {
+    width: 100%;
+}
+
+.cert_wrapper_folio{
+    grid-column: 3/4;
+    grid-row: 2;
+    align-content: center;
+    justify-content: center;
+    align-items: end;
+    align-self: center;
+    justify-self: end;
+}
+
+.cert_title{
+    grid-column: 1/-1;
+    grid-row: 3;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.cert_title h3{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cert_parrafo1{
+    grid-column: 1/-1;
+    grid-row: 4;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.cer_tabla1{
+    grid-column: 1/-1;
+    grid-row: 5;
+    padding-top: 4%;
+    padding-bottom: 4%
+}
+
+.cert_tabla1_wrapper{
+    text-align: center;
+}
+
+.tabla1_row th{
+    text-align: center;
+}
+
+#map_rep{
+    width: 100%;
+    height: 200px;
+    padding: 0 5%;
+    max-width: 350px;
+}
+
+.cert_parrafo2{
+    grid-column: 1/-1;
+    grid-row: 6/8;
+    text-align: justify;
+    padding-top: 1em;
+
+}
+
+.cert_tabla2{
+    grid-column: 1/-1;
+    grid-row: 8/10;
+    padding-top: 2%;
+    
+}
+
+.cert_tabla2_wrapper{
+    text-align: center;
+}
+
+.tabla2_row th{
+    text-align: center;
+}
+
+.cert_parrafo3{
+    grid-column: 1/-1;
+    grid-row: 11/12;
+}
+
+.cert_firma{
+    grid-column: 1/-1;
+    grid-row: 13;
+    width: 100%;
+    text-align: center;
+}
+
+.cert_fecha{
+    grid-column: 1/-1;
+    grid-row: 16;
+}
+
+.cert_pie{
+    grid-column: 1/-1;
+    grid-row: 17;
+}
+
+.esriSimpleSliderTL{
+    display: none;
+}

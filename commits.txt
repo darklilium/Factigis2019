@@ -1,0 +1,10 @@
+On branch master
+Changes not staged for commit:
+	modified:   static/js/components/factigis/FactigisBackOfficeH.jsx
+	modified:   static/js/services/factigis_services/config.js
+	modified:   static/js/services/factigis_services/factigis_loadBackOfficeStates.js
+
+Untracked files:
+	commits.txt
+
+no changes added to commit

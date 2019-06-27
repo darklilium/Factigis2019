@@ -1,0 +1,78 @@
+//v1.9d
+//25.06.2019 : E.H.R
+//DEV MODE, internal services.
+
+const env = {
+  ROOT: "static/css/",
+  CSSDIRECTORY: 'static/css/', //using
+  ROUTEPATH: '/',
+  ENVIRONMENT: 'DEVELOPMENT',
+  WEBSERVERADDRESS: "",
+  SAVEAPPLICATIONMODULE: "FACTIGIS_DESA",
+  SAVEAPPLICATIONNAME: 'REACT_FACTIGIS_DESA',
+  BUILDFOR: "INTERNA",
+  SSL: 'https://'
+}
+
+//Dev mode, external services.
+/*
+const env = {
+  ROOT: "static/css/",
+  CSSDIRECTORY: 'static/css/', //using
+  ROUTEPATH: '/',
+  ENVIRONMENT: 'DEVELOPMENT',
+  WEBSERVERADDRESS: "",
+  SAVEAPPLICATIONMODULE: "FACTIGIS_DESA",
+  SAVEAPPLICATIONNAME: 'REACT_FACTIGIS_DESA',
+  BUILDFOR: "EXTERNA",
+  SSL: 'https://'
+}
+*/
+
+//TEST MODE - INTERNO (pruebas factigis)
+/*
+const env = {
+  ROOT: "css/",
+  CSSDIRECTORY: 'css/', //using
+  ROUTEPATH: '/FACTIGIS',
+  ENVIRONMENT: 'DEVELOPMENT',
+  WEBSERVERADDRESS: "",
+  SAVEAPPLICATIONMODULE: "FACTIGIS_DESA",
+  SAVEAPPLICATIONNAME: 'REACT_FACTIGIS_DESA',
+  BUILDFOR: "EXTERNA",
+  SSL: 'https://'
+}
+*/
+/*
+//PROD MODE - EXTERNO sin ssl
+const env = {
+  ROOT: "css/",
+  CSSDIRECTORY: 'css/', //using
+  ROUTEPATH: '/FACTIGIS',
+  ENVIRONMENT: 'PRODUCTION',
+  WEBSERVERADDRESS: "",
+  SAVEAPPLICATIONMODULE: "FACTIGIS_PROD",
+  SAVEAPPLICATIONNAME: 'REACT_FACTIGIS_PROD',
+  BUILDFOR: "INTERNA",
+  VERSION: "_V1.9(PROV)",
+  SSL: 'http://'
+}
+*/
+
+//prod mode: interno : app interna, servidor VARCGISPROD.
+
+/*
+const env = {
+  ROOT: "css/",
+  CSSDIRECTORY: 'css/',
+  ROUTEPATH: '/FACTIGIS',
+  ENVIRONMENT: 'PRODUCTION',
+  WEBSERVERADDRESS: "",
+  SAVEAPPLICATIONMODULE: "FACTIGIS_PROD",
+  SAVEAPPLICATIONNAME: 'REACT_FACTIGIS_PROD',
+  SSL: 'https://',
+  BUILDFOR: "INTERNA"
+}
+*/
+
+export default env;
